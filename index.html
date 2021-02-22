@@ -54,14 +54,19 @@
         let idadePrimeiraPessoa = prompt('Escreva a idade de ' + nomePrimeiraPessoa);
         let nomeSegundaPessoa = prompt('Escreva o nome da segunda pessoa');
         let idadeSegundaPessoa = prompt('Escreva a idade de ' + nomeSegundaPessoa);
+        console.log(`Registros de ${nomePrimeiraPessoa} e ${nomeSegundaPessoa}`);
+        console.log(`Idade de ${nomePrimeiraPessoa} é : ${idadePrimeiraPessoa} anos`);
+        console.log(`Idade de ${nomeSegundaPessoa} é : ${idadeSegundaPessoa} anos`)
 
         if (idadePrimeiraPessoa > idadeSegundaPessoa) {
-            console.log(`${nomePrimeiraPessoa} é mais velho que ${nomeSegundaPessoa}`);
+            console.log(`${nomePrimeiraPessoa} é mais novo que ${nomeSegundaPessoa}`);
         }
 
       else if (idadePrimeiraPessoa < idadeSegundaPessoa){
-          console.log(`${nomePrimeiraPessoa} é mais jovem que ${nomeSegundaPessoa}`)
+          console.log(`${nomePrimeiraPessoa} é mais velho que ${nomeSegundaPessoa}`)
       }
+      
+
     </script>
 </body>
 </html>
